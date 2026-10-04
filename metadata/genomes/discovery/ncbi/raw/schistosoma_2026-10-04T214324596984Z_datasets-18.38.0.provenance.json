@@ -1,0 +1,41 @@
+{
+  "command": "conda run --no-capture-output -n ncbi_datasets datasets summary genome taxon Schistosoma --assembly-source all --assembly-version current --limit all --as-json-lines",
+  "command_argv": [
+    "conda",
+    "run",
+    "--no-capture-output",
+    "-n",
+    "ncbi_datasets",
+    "datasets",
+    "summary",
+    "genome",
+    "taxon",
+    "Schistosoma",
+    "--assembly-source",
+    "all",
+    "--assembly-version",
+    "current",
+    "--limit",
+    "all",
+    "--as-json-lines"
+  ],
+  "query_taxon": "Schistosoma",
+  "assembly_version_query": "current",
+  "retrieval_timestamp": "2026-10-04T21:43:24.596984+00:00",
+  "completed_timestamp": "2026-10-04T21:43:27.464863+00:00",
+  "datasets_version": "18.38.0",
+  "raw_response_path": "/home/nplatt/schistosoma_te/metadata/genomes/discovery/ncbi/raw/schistosoma_2026-10-04T214324596984Z_datasets-18.38.0.jsonl",
+  "raw_response_checksum_algorithm": "sha256",
+  "raw_response_checksum": "26a59312530a9cd5df54ad9db179530702d7162871f27cf78bed2602e04f3f00",
+  "returncode": 0,
+  "stderr": "",
+  "parser_path": "/home/nplatt/schistosoma_te/scripts/parse_ncbi_assembly_report.py",
+  "parser_sha256": "729d88dbb9a7a990b019e54d5f4e662c7b278f369b054cb62654ff83ee94b22e",
+  "candidate_path": "/home/nplatt/schistosoma_te/metadata/genomes/discovery/ncbi/candidates/schistosoma_2026-10-04T214324596984Z_datasets-18.38.0.tsv",
+  "reparse": {
+    "timestamp": "2026-10-04T21:44:34.938181+00:00",
+    "reason": "CLI snake_case fields supported in addition to camelCase",
+    "candidate_path": "/home/nplatt/schistosoma_te/metadata/genomes/discovery/ncbi/candidates/schistosoma_2026-10-04T214324596984Z_datasets-18.38.0_parsed.tsv",
+    "parser_sha256": "0b7b62d81fe262ec26ad5118b990b42c77e451aed9e2eb799cbb8e28f2a733f0"
+  }
+}

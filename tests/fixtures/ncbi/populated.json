@@ -1,0 +1,39 @@
+{
+  "reports": [
+    {
+      "accession": "GCA_999999991.2",
+      "currentAccession": "GCA_999999991.3",
+      "pairedAccession": "GCF_999999991.2",
+      "assemblyInfo": {
+        "assemblyName": "Synthetic assembly",
+        "assemblyLevel": "Scaffold",
+        "releaseDate": "2024-01-02",
+        "sequencingTech": "Synthetic short reads; synthetic long reads",
+        "assemblyMethod": "Synthetic assembler v1; finishing method (unparsed)",
+        "assemblyType": "haploid-with-alt-loci",
+        "assemblyStatus": "previous",
+        "pairedAssembly": {
+          "accession": "GCF_999999991.2",
+          "refseqGenbankAreDifferent": true,
+          "differences": "Synthetic difference: chromosome MT"
+        }
+      },
+      "organism": {
+        "organismName": "Synthetic organism",
+        "taxId": 999999999,
+        "infraspecificNames": {
+          "strain": "synthetic strain",
+          "isolate": "synthetic isolate"
+        }
+      },
+      "assemblyStats": {
+        "totalSequenceLength": "100000",
+        "totalUngappedLength": "99000",
+        "numberOfContigs": 20,
+        "numberOfScaffolds": 10,
+        "contigN50": 10000,
+        "scaffoldN50": 20000
+      }
+    }
+  ]
+}
